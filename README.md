@@ -144,6 +144,32 @@ This template includes several helpful scripts:
 - `npm run lint:fix` - Fix code style issues
 - `npm run format` - Format code with Prettier
 
+### Setting up Lefthook
+
+This project uses Lefthook for pre-commit hooks. To set it up:
+
+```bash
+# Install lefthook locally (recommended)
+npx lefthook install
+
+# If the above doesn't work, install lefthook globally and try again
+npm install -g lefthook
+lefthook install
+```
+
+Lefthook will automatically run linting, formatting, and tests before each commit to ensure code quality.
+
+### Upstream Repository Management
+
+If you've forked this repository and want to keep your fork in sync with the original repository, use these commands:
+
+- `npm run upstream:setup` - Sets up the upstream remote pointing to the original repository
+- `npm run upstream:fetch` - Fetches the latest changes from the upstream repository
+- `npm run upstream:merge` - Fetches and merges the latest changes from upstream into your current branch
+- `npm run upstream:rebase` - Fetches and rebases your current branch on top of the latest upstream changes
+
+**Note**: The `upstream:setup` command configures the upstream remote to prevent accidental pushes to the original repository. You cannot push to the upstream repository - it's configured as read-only.
+
 ## Publishing
 
 When ready to publish:
