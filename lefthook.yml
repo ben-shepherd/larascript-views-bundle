@@ -1,6 +1,8 @@
 pre-commit:
   parallel: true
   commands:
+    exports:
+      run: npm run check-exports
     test:
       run: npm test
     lint:
