@@ -5,7 +5,7 @@ A lightweight EJS template rendering service for the Larascript Framework.
 ## Installation
 
 ```bash
-npm install @ben-shepherd/larascript-views-bundle
+npm install ben-shepherd/larascript-views-bundle
 ```
 
 ## Quick Start
