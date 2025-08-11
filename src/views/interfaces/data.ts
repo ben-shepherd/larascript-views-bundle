@@ -1,4 +1,4 @@
 export type RenderData = {
-    view: string;
-    data?: Record<string, unknown>;
-}
+  view: string;
+  data?: Record<string, unknown>;
+};

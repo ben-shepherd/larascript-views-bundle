@@ -1,3 +1,3 @@
 export type IViewServiceConfig = {
-    resourcesDir: string
-}
+  resourcesDir: string;
+};
