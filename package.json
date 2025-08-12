@@ -1,10 +1,10 @@
 {
-  "name": "@ben-shepherd/larascript-views-bundle",
+  "name": "@ben-shepherd/larascript-views",
   "version": "1.0.0",
-  "description": "Views bundle for Larascript Framework",
+  "description": "Reusable EJS view templates and utilities for the Larascript Framework.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ben-shepherd/larascript-views-bundle"
+    "url": "git+https://github.com/ben-shepherd/larascript-views"
   },
   "license": "ISC",
   "author": "ben.shepherd@gmx.com",

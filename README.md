@@ -1,17 +1,17 @@
-# Larascript Views Bundle
+# Larascript Views
 
 A lightweight EJS template rendering service for the Larascript Framework.
 
 ## Installation
 
 ```bash
-npm install ben-shepherd/larascript-views-bundle
+npm install ben-shepherd/larascript-views
 ```
 
 ## Quick Start
 
 ```typescript
-import { ViewService } from '@ben-shepherd/larascript-views-bundle';
+import { ViewService } from '@ben-shepherd/larascript-views';
 
 // Initialize the view service
 const viewService = new ViewService({
@@ -71,7 +71,7 @@ interface RenderData {
 ### Basic Template Rendering
 
 ```typescript
-import { ViewService } from '@ben-shepherd/larascript-views-bundle';
+import { ViewService } from '@ben-shepherd/larascript-views';
 
 const viewService = new ViewService({
   resourcesDir: './src/views'
